@@ -1,5 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
-  return <h1 className="text-4xl text-blue-500">Alice</h1>;
+  return (
+    <body className={`bg-white ${import.meta.env.PROD ? "" : "debug-screens"}`}>
+      <Navbar />
+    </body>
+  );
 }
 
 export default App;
