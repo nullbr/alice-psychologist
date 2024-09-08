@@ -97,14 +97,14 @@ const Links = ({
 }: {
   setOpenNav?: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
-  // check pathname to set the active link
-  const path = window.location.pathname;
+  const [anchor, setAnchor] = useState("#");
 
   const pages = [
-    { title: "início", path: "/" },
-    { title: "sobre", path: "#sobre" },
-    { title: "serviços", path: "#servicos" },
-    { title: "contato", path: "#contato" },
+    { title: "home", path: "#" },
+    { title: "sobre", path: "#about" },
+    { title: "especialidades", path: "#specialties" },
+    { title: "depoimentos", path: "#reviews" },
+    { title: "contato", path: "#contact" },
   ];
 
   return (
@@ -116,9 +116,10 @@ const Links = ({
               href={page.path}
               onClick={() => {
                 if (setOpenNav) setOpenNav(false);
+                setAnchor(page.path);
               }}
               className={`block py-2 pl-3 pr-4 rounded capitalize md:p-0 md:hover:text-blue-600 ${
-                path === page.path
+                anchor === page.path
                   ? "text-white bg-blue-700 md:text-blue-700 md:bg-transparent md:underline"
                   : "text-gray-500"
               }`}
@@ -163,7 +164,7 @@ const FloatingButton = () => {
         <BiChevronUp size={40} className="-mt-2.5 -ml-2.5" />
       </button>
       <a
-        href={`https://wa.me/{add-number}?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita.`}
+        href={`https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita`}
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 rounded-full ease-in-out duration-500 hover:bg-white hover:shadow-lg hover:pl-4 transition text-gray-500 group"
