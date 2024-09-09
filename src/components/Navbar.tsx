@@ -16,8 +16,31 @@ const Navbar = () => {
 };
 
 const WebNav = () => {
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    // sticky navbar - bg black
+    const handleScroll = () => {
+      if (window.scrollY > 1) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="fixed inset-x-0 top-0 z-40 backdrop-blur md:py-2">
+    <nav
+      className={`fixed inset-x-0 top-0 z-40 md:py-2 transition-shadow duration-300 ease-in-out ${
+        sticky ? "shadow-xl bg-slightly-transparent" : "bg-transparent "
+      }`}
+    >
       <div className="max-w-3xl flex flex-wrap items-center justify-between mx-auto">
         {/* logo */}
         <a href="/" className="p-4">
