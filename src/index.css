@@ -1,23 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Beautifully Delicious";
+  src:
+    url("/src/assets/fonts/BDSans-Regular.woff2") format("woff2"),
+    url("/src/assets/fonts/BDSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @layer base {
   html {
     scroll-behavior: smooth;
   }
 
-  body {
-    @apply font-inter bg-outline-pattern;
-  }
-
   h1,
   h2,
   h3 {
-    @apply font-garamond;
+    @apply font-beautiful text-blue-700;
   }
 
   a {
@@ -27,6 +29,6 @@
 
 @layer utilities {
   .section-offset {
-    @apply -mt-24 pt-24;
+    @apply -mt-60 pt-60;
   }
 }

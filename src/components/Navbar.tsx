@@ -187,7 +187,7 @@ const FloatingButton = () => {
         <BiChevronUp size={40} className="-mt-2.5 -ml-2.5" />
       </button>
       <a
-        href={`https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita`}
+        href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 rounded-full ease-in-out duration-500 hover:bg-white hover:shadow-lg hover:pl-4 transition text-gray-500 group"
