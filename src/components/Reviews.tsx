@@ -21,24 +21,14 @@ const Reviews = () => {
 
   return (
     <section id="reviews" className="section-offset">
-      <a
-        href="https://search.google.com/local/writereview?placeid=ChIJVSSjvRkZxJQRIfyo1l26xYg"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex justify-between py-20 h-full bg-black shadow-xl rounded-xl items-center"
-      >
-        <div className="container page-padding">
-          <div id="reviews" className="p-20relative">
-            <div className="relative text-center -mb-[4rem] items-center flex flex-col z-10 bg-black w-[70%] mx-auto">
-              <h3 className="text-[3.4rem] min620:text-[2.5rem] text-white font-bold underline underline-offset-8 decoration-4 decoration-secondary">
-                Depoimentos
-              </h3>
-            </div>
-            <div className="elfsight-app-27de0d42-b15b-40d4-9421-fe3cde1bc549"></div>
-            <div className="relative w-[70%] h-20 -top-20 -mb-[10rem] mx-auto bg-black z-[99999]"></div>
+      <div className="container page-padding">
+        <div id="reviews" className="p-4 sm:p-20 relative">
+          <div className="relative text-center items-center flex flex-col z-10 w-[70%] mx-auto">
+            <h3 className="sm:text-[3.4rem] text-[2.5rem]">Depoimentos</h3>
           </div>
+          <div className="elfsight-app-1363a465-8e11-4be6-bc94-71914865b958"></div>
         </div>
-      </a>
+      </div>
     </section>
   );
 };

@@ -3,11 +3,11 @@ import AboutImg from "../assets/about.png";
 const About = () => {
   return (
     <section id="about" className="m-6 lg:m-10">
-      <article className="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-10 text-center lg:h-[600px] xl:h-[700px] max-w-7xl mx-auto">
+      <article className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 lg:gap-10 text-center lg:h-[600px] xl:h-[700px] max-w-7xl mx-auto">
         <img
           src={AboutImg}
           alt="Alice Araujo"
-          className="w-auto h-[50vh] lg:h-full md:max-w-full rounded-7xl border border-brown-500 shadow-xl"
+          className="w-auto h-auto lg:h-full md:max-w-full rounded-7xl border border-brown-500 shadow-xl"
         />
 
         <div className="border-2 rounded-7xl border-brown-500 p-6 lg:p-10 h-full flex flex-col items-center justify-center">
