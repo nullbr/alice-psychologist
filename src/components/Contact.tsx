@@ -1,5 +1,3 @@
-import ContactImg from "../assets/contact.png";
-
 const Contact = () => {
   return (
     <section id="contact" className="section-offset">
@@ -18,11 +16,11 @@ const Contact = () => {
             Locais de Atendimento
           </h2>
           <div className="mb-6">
-            <img
+            {/* <img
               src={ContactImg}
               alt="Consultório"
               className="w-full h-auto rounded-lg shadow-md"
-            />
+            /> */}
           </div>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>

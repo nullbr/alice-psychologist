@@ -5,18 +5,21 @@ import OnlineMeeting from "../assets/online-meeting.svg";
 
 const Hero = () => {
   return (
-    <section id="hero" className="bg-outline-pattern rounded-bl-7xl">
-      <article className="flex gap-10 text-center text-white md:text-xl -mb-80 max-w-7xl mx-auto px-6 pb-10 pt-28">
-        <div className="flex flex-col justify-around max-w-[500px] mx-auto">
-          <div className="h-[50%] flex flex-col items-center justify-center">
+    <section
+      id="hero"
+      className="bg-outline-pattern rounded-bl-7xl text-gray-600"
+    >
+      <article className="flex flex-col lg:flex-row gap-6 lg:gap-10 text-center md:text-xl -mb-[45vw] md:-mb-80 max-w-7xl mx-auto px-6 pb-10 pt-28">
+        <div className="flex flex-col gap-4 lg:gap-0 lg:justify-around max-w-[500px] mx-auto">
+          <div className="lg:h-[50%] flex flex-col items-center justify-center">
             <h1 className="text-4xl md:text-5xl mb-4">Alice Araujo</h1>
-            <p className="text-xl md:text-2xl text-gray-600">
+            <p className="text-xl md:text-2xl ">
               Psicóloga Especializada em Ansiedade e Terapia
               Cognitivo-Comportamental
             </p>
           </div>
-          <div className="h-[50%] flex flex-col items-center justify-center">
-            <p className="text-white mb-6 text-xl md:text-2xl">
+          <div className="lg:h-[50%] flex flex-col items-center justify-center">
+            <p className="lg:text-white mb-6 text-xl md:text-2xl">
               Ofereço consultas online e presenciais em Ipanema/RJ. Entre em
               contato para agendar uma sessão.
             </p>
@@ -44,10 +47,10 @@ const Hero = () => {
         <img
           src={HeroImg}
           alt="Alice Araujo"
-          className="rounded-full border border-blue-700 shadow-xl w-[500px] h-[500px] justify-center items-center text-xl md:text-2xl"
+          className="rounded-full border border-blue-700 shadow-xl w-[70vw] h-[70vw] md:w-[500px] md:h-[500px] justify-center items-center text-xl md:text-2xl mx-auto"
         />
       </article>
-      <div className="bg-brown-500 page-padding text-center text-white md:text-xl pt-[330px] rounded-l-7xl" />
+      <div className="bg-brown-500 page-padding text-center text-white md:text-xl pt-[40vw] md:pt-[330px] rounded-l-7xl" />
     </section>
   );
 };

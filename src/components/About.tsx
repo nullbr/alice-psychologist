@@ -1,18 +1,20 @@
-import HeroImg from "../assets/hero.png";
+import AboutImg from "../assets/about.png";
 
 const About = () => {
   return (
-    <section id="about" className="section-offset">
-      <div className="bg-white page-padding pt-48 pb-10 text-center text-white md:text-xl" />
-      <article className="page-padding pb-44 flex flex-col justify-center items-center gap-10 text-center text-white md:text-xl rounded-7xl bg-brown-500">
+    <section id="about" className="m-6 lg:m-10">
+      <article className="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-10 text-center lg:h-[600px] xl:h-[700px] max-w-7xl mx-auto">
         <img
-          src={HeroImg}
+          src={AboutImg}
           alt="Alice Araujo"
-          className="w-auto h-auto max-w-[80%] md:max-w-full rounded-full border border-white shadow-xl -mt-20"
+          className="w-auto h-[50vh] lg:h-full md:max-w-full rounded-7xl border border-brown-500 shadow-xl"
         />
-        <div className="max-w-3xl mx-auto">
-          <h1 className="mb-6 text-2xl">Seja bem vindo(a),</h1>
-          <p>
+
+        <div className="border-2 rounded-7xl border-brown-500 p-6 lg:p-10 h-full flex flex-col items-center justify-center">
+          <h1 className="text-xl lg:text-2xl xl:text-3xl mb-4 xl:mb-8">
+            Seja bem vindo(a),
+          </h1>
+          <p className="text-justify lg:text-lg xl:text-xl text-gray-700">
             Olá, eu sou Alice Araujo, Psicóloga (CRP-05/36914), com 19 anos de
             experiência clínica. Sou pós-graduada em Psicologia Médica pela UERJ
             e tenho MBA em Gestão Empresarial pela FGV. Desde 2014, sou Diretora
