@@ -22,6 +22,10 @@
     @apply font-beautiful text-blue-700;
   }
 
+  h2 {
+    @apply sm:text-[3.4rem] text-[2.5rem];
+  }
+
   a {
     @apply text-blue-500 hover:text-blue-600 hover:underline;
   }

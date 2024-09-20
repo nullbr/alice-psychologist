@@ -23,8 +23,8 @@ const Reviews = () => {
     <section id="reviews" className="section-offset">
       <div className="container page-padding">
         <div id="reviews" className="p-4 sm:p-20 relative">
-          <div className="relative text-center items-center flex flex-col z-10 w-[70%] mx-auto">
-            <h3 className="sm:text-[3.4rem] text-[2.5rem]">Depoimentos</h3>
+          <div className="text-center mb-6">
+            <h2>Depoimentos</h2>
           </div>
           <div className="elfsight-app-1363a465-8e11-4be6-bc94-71914865b958"></div>
         </div>

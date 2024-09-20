@@ -10,7 +10,7 @@ const Footer = () => {
             <img src={Logo} alt="Logo" className="w-24 h-auto mr-4" />
             <div>
               <h2 className="text-xl font-bold mb-2 text-blue-700">
-                Alice Araujo Psicologia
+                Alice Araujo
               </h2>
               <p className="text-gray-400">
                 Atendimento psicológico para adolescentes e adultos. Consultório
