@@ -123,18 +123,18 @@ const Links = ({
   const [anchor, setAnchor] = useState("#");
 
   const pages = [
-    { title: "home", path: "#" },
     { title: "sobre", path: "#about" },
     { title: "especialidades", path: "#specialties" },
-    { title: "depoimentos", path: "#reviews" },
+    { title: "consultas", path: "#appointments" },
     { title: "contato", path: "#contact" },
+    { title: "depoimentos", path: "#reviews" },
   ];
 
   return (
-    <ul className="font-medium flex flex-col text-end p-4 pt-20 border border-gray-100 bg-white h-full md:flex-row md:space-x-8 md:px-4 md:py-0 md:bg-transparent md:border-none">
+    <div className="font-medium flex flex-col text-end p-4 pt-28 border border-gray-100 bg-white h-full md:flex-row md:gap-4 md:px-4 md:py-0 md:bg-transparent md:border-none">
       {pages.map((page, idx) => {
         return (
-          <li key={idx}>
+          <div key={idx}>
             <a
               href={page.path}
               onClick={() => {
@@ -149,10 +149,10 @@ const Links = ({
             >
               {page.title}
             </a>
-          </li>
+          </div>
         );
       })}
-    </ul>
+    </div>
   );
 };
 
@@ -174,12 +174,12 @@ const FloatingButton = () => {
 
   return (
     <div
-      className={`fixed bottom-[40px] flex flex-col items-end text-end gap-2 ease-in-out duration-500 ${
+      className={`fixed bottom-[40px] z-[999999] flex flex-col items-end text-end gap-2 ease-in-out duration-500 ${
         show ? "right-[29px]" : "-right-[100%]"
       }`}
     >
       <button
-        className="h-[40px] w-[40px] p-2 border-2 border-gray-500 hover:border-white rounded-full hover:bg-gray-500 transition-colors text-gray-500 hover:text-white hover:shadow-lg"
+        className="h-[40px] w-[40px] p-2 border-2 border-blue-700 hover:border-white rounded-full hover:bg-blue-700 transition-colors text-blue-700 hover:text-white hover:shadow-lg"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}

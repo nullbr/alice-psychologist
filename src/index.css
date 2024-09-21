@@ -32,8 +32,8 @@
   }
 }
 
-/* @layer utilities {
+@layer utilities {
   .section-offset {
-    @apply -mt-60 pt-60;
+    @apply -mt-20 pt-20 md:-mt-24 md:pt-24;
   }
-} */
+}

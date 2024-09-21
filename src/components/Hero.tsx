@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="bg-outline-pattern rounded-bl-7xl text-gray-600"
+      className="bg-outline-pattern rounded-bl-7xl text-gray-600 section-offset"
     >
       <article className="flex flex-col lg:flex-row gap-6 lg:gap-10 text-center md:text-xl -mb-[45vw] md:-mb-80 max-w-7xl mx-auto px-6 pb-10 pt-16 sm:pt-28 h-[100svh] sm:h-auto">
         <div className="flex flex-col gap-2 sm:gap-4 lg:gap-0 h-full justify-around sm:justify-normal lg:justify-around max-w-[500px] mx-auto">

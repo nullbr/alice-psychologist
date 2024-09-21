@@ -1,16 +1,16 @@
 const Specialties = () => {
   return (
     <section id="specialties" className="section-offset">
-      <div className="max-w-3xl mx-auto px-6 py-10 flex flex-col gap-4 md:gap-10">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col gap-4 md:gap-10">
         <h2 className="text-center">Minhas Especialidades</h2>
-        <p className="sm:text-lg text-gray-700 mb-4 sm:mb-10 text-center">
+        <p className="sm:text-lg text-gray-700 mb-4 sm:mb-10 text-center max-w-3xl mx-auto">
           Atendo adolescentes e adultos, oferecendo sessões online quanto
           presencialmente em Ipanema/RJ. Com uma abordagem personalizada e
           acolhedora, estou aqui para ajudar você a superar desafios e alcançar
           uma vida mais equilibrada e feliz.
         </p>
 
-        <div className="relative bg-brown-600 shadow-xl rounded-xl text-white p-6 pt-10 text-lg font-light tracking-wide">
+        <div className="bg-gradient-to-r from-brown-600 to-yellow-700 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03] relative text-white p-6 pt-10 text-lg">
           <h2 className="text-center text-2xl font-semibold mb-4">
             Ansiedade e Terapia Cognitivo-Comportamental (TCC)
           </h2>
@@ -63,7 +63,7 @@ const Specialties = () => {
           </div>
         </div>
 
-        <div className="relative bg-brown-600 shadow-xl rounded-xl text-white p-6 pt-10 text-lg font-light tracking-wide">
+        <div className="bg-gradient-to-r from-brown-600 to-yellow-700 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03] relative text-white p-6 pt-10 text-lg">
           <h2 className="text-center text-2xl font-semibold mb-4">
             Equilíbrio Emocional para Vestibulandos e Estudantes de Medicina
           </h2>

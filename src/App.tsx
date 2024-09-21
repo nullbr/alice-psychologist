@@ -17,8 +17,8 @@ function App() {
         <About />
         <Specialties />
         <Appointments />
-        <Reviews />
         <Contact />
+        <Reviews />
         <Footer />
       </main>
     </body>

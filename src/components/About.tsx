@@ -2,8 +2,8 @@ import AboutImg from "../assets/about.png";
 
 const About = () => {
   return (
-    <section id="about" className="mx-4 mt-10">
-      <article className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 lg:gap-10 text-center lg:h-[600px] xl:h-[700px] max-w-7xl mx-auto">
+    <section id="about" className="section-offset mb-20">
+      <article className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 lg:gap-10 text-center lg:h-[600px] xl:h-[700px] max-w-7xl mx-6 xl:mx-auto mt-10">
         <img
           src={AboutImg}
           alt="Alice Araujo"

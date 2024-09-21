@@ -23,6 +23,7 @@ const Footer = () => {
             <a
               href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita"
               className="text-blue-400 hover:underline flex flex-row gap-2 items-center"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <i>
@@ -33,6 +34,7 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/psi.alicearaujo"
               className="text-blue-400 hover:underline  flex flex-row gap-2 items-center"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <i>
@@ -41,8 +43,9 @@ const Footer = () => {
               @psi.alicearaujo
             </a>
             <a
-              href="https://www.linkedin.com/in/alice-araujo"
+              href="https://www.linkedin.com/in/alice-araujo-7bbb10169"
               className="text-blue-400 hover:underline  flex flex-row gap-2 items-center"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <i>
