@@ -8,7 +8,7 @@ import Support from "../assets/support.svg";
 const Appointments = () => {
   return (
     <section id="appointments" className="section-offset">
-      <div className="max-w-7xl mx-auto px-6 py-10">
+      <div className="max-w-7xl mx-auto px-6 pt-10">
         <h2 className="mb-6 text-center">Minha Consulta</h2>
         <p className="text-lg text-gray-700 mb-10 text-center max-w-3xl mx-auto">
           Cada pessoa vivencia a dor de forma única, e é essencial que o
@@ -17,7 +17,7 @@ const Appointments = () => {
           e respeito.
         </p>
 
-        <div className="bg-gradient-to-r to-blue-200 from-purple-300 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
+        <div className="bg-purple-300 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
           <h3 className="text-2xl mb-6 text-center">Meu Diferencial</h3>
           <ul className="list-none text-blue-900 space-y-6 leading-relaxed max-w-3xl mx-auto">
             <li className="flex items-start space-x-3">
@@ -60,7 +60,7 @@ const Appointments = () => {
           </ul>
         </div>
 
-        <div className="bg-gradient-to-r to-blue-200 from-purple-300 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
+        <div className="bg-purple-300 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
           <h3 className="text-2xl mb-6 text-center">
             Por Que Escolher o Meu Atendimento?
           </h3>

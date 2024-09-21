@@ -7,15 +7,15 @@ import { BiPhoneCall } from "react-icons/bi";
 const Contact = () => {
   return (
     <section id="contact" className="section-offset">
-      <div className="max-w-7xl mx-auto px-6 pb-10">
+      <div className="max-w-7xl mx-auto px-6 pt-10 text-lg">
         <h2 className="mb-6 text-center">Onde Encontrar-me</h2>
-        <p className="text-lg text-gray-700 mb-10 text-center max-w-3xl mx-auto">
+        <p className="text-gray-700 mb-10 text-center max-w-3xl mx-auto">
           Ofereço atendimento presencial e online para atender às suas
           necessidades, seja no Brasil ou em qualquer lugar do mundo. Veja
           abaixo como entrar em contato e localizar meu consultório.
         </p>
 
-        <div className="bg-gradient-to-r from-blue-600 to-blue-500 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
+        <div className="bg-blue-600 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
           <div className="max-w-3xl mx-auto">
             <h3 className="text-white text-2xl mb-6 text-center">
               Locais de Atendimento
@@ -45,7 +45,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-blue-600 to-blue-500 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
+        <div className="bg-blue-600 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
           <div className="max-w-3xl mx-auto">
             <h3 className="text-white text-2xl mb-6 text-center">
               Entre em Contato
@@ -100,7 +100,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-blue-600 to-blue-500 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
+        <div className="bg-blue-600 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
           <div className="max-w-3xl mx-auto">
             <h3 className="text-white text-2xl mb-6 text-center">
               Como Posso Ajudar?
