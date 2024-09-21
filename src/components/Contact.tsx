@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section id="contact" className="section-offset">
+    <section id="contact">
       <div className="max-w-3xl mx-auto px-6 py-10">
         <h2 className="mb-6 text-center">Onde Encontrar-me</h2>
         <p className="text-lg text-gray-700 mb-10 text-center">

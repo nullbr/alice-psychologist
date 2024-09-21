@@ -31,8 +31,8 @@
   }
 }
 
-@layer utilities {
+/* @layer utilities {
   .section-offset {
     @apply -mt-60 pt-60;
   }
-}
+} */

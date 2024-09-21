@@ -20,15 +20,10 @@ const Reviews = () => {
   }, []);
 
   return (
-    <section id="reviews" className="section-offset">
-      <div className="container page-padding">
-        <div id="reviews" className="p-4 sm:p-20 relative">
-          <div className="text-center mb-6">
-            <h2>Depoimentos</h2>
-          </div>
-          <div className="elfsight-app-1363a465-8e11-4be6-bc94-71914865b958"></div>
-        </div>
-      </div>
+    <section id="reviews" className="max-w-7xl mx-auto px-4">
+      <h2 className="text-center mb-6">Depoimentos</h2>
+
+      <div className="elfsight-app-1363a465-8e11-4be6-bc94-71914865b958"></div>
     </section>
   );
 };
