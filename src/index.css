@@ -22,8 +22,9 @@
     @apply font-beautiful text-blue-700;
   }
 
+  h1,
   h2 {
-    @apply sm:text-[3.4rem] text-[2.5rem];
+    @apply text-4xl md:text-5xl mb-4;
   }
 
   a {

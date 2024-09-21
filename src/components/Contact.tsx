@@ -57,7 +57,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <strong>CRP:</strong> 05/36914
+              <strong>CRP:</strong> 05/36914 s{" "}
             </li>
           </ul>
         </div>

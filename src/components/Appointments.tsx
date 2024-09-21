@@ -23,10 +23,8 @@ const Appointments = () => {
             <li className="flex items-start space-x-3">
               <img src={Empathy} alt="Empatia" className="h-10 w-10" />
               <div>
-                <strong className="text-gray-900">
-                  Empatia e Compreensão:
-                </strong>{" "}
-                Um ambiente acolhedor onde você se sentirá compreendido.
+                <strong className="text-gray-900">Empatia e Compreensão</strong>
+                <p>Um ambiente acolhedor onde você se sentirá compreendido.</p>
               </div>
             </li>
             <li className="flex items-start space-x-3">
@@ -37,24 +35,29 @@ const Appointments = () => {
               />
               <div>
                 <strong className="text-gray-900">
-                  Abordagem Personalizada:
-                </strong>{" "}
-                Planos de tratamento adaptados às suas necessidades específicas.
+                  Abordagem Personalizada
+                </strong>
+                <p>
+                  Planos de tratamento adaptados às suas necessidades
+                  específicas.
+                </p>
               </div>
             </li>
             <li className="flex items-start space-x-3">
               <img src={Updated} alt="Atualizado" className="h-10 w-10" />
               <div>
-                <strong className="text-gray-900">Atualização Contínua:</strong>{" "}
-                Técnicas eficazes e sempre atualizadas, com foco em constante
-                aperfeiçoamento.
+                <strong className="text-gray-900">Atualização Contínua</strong>
+                <p>
+                  Técnicas eficazes e sempre atualizadas, com foco em constante
+                  aperfeiçoamento.
+                </p>
               </div>
             </li>
           </ul>
         </div>
 
         <div className="bg-gradient-to-r to-blue-200 from-purple-300 p-10 mb-8 shadow-2xl rounded-xl transform transition-transform duration-300 hover:scale-105">
-          <h3 className="text-2xl mb-6 text-centerr">
+          <h3 className="text-2xl mb-6 text-center">
             Por Que Escolher o Meu Atendimento?
           </h3>
           <ul className="list-none text-blue-900 space-y-6 leading-relaxed">
@@ -62,26 +65,28 @@ const Appointments = () => {
               <img src={Confidence} alt="Confiança" className="h-10 w-10" />
               <div>
                 <strong className="text-purple-900">
-                  Desenvolvimento de Confiança e Autocontrole:
-                </strong>{" "}
-                Essenciais para enfrentar desafios.
+                  Desenvolvimento de Confiança e Autocontrole
+                </strong>
+                <p>Essenciais para enfrentar desafios.</p>
               </div>
             </li>
             <li className="flex items-start space-x-3">
               <img src={Strategies} alt="Estratégias" className="h-10 w-10" />
               <div>
                 <strong className="text-purple-900">
-                  Estratégias Eficazes:
-                </strong>{" "}
-                Uso da Terapia Cognitivo-Comportamental (TCC) para resultados
-                comprovados.
+                  Estratégias Eficazes
+                </strong>
+                <p>
+                  Uso da Terapia Cognitivo-Comportamental (TCC) para resultados
+                  comprovados.
+                </p>
               </div>
             </li>
             <li className="flex items-start space-x-3">
               <img src={Support} alt="Apoio" className="h-10 w-10" />
               <div>
-                <strong className="text-purple-900">Apoio:</strong> Suporte
-                contínuo durante todo o processo terapêutico.
+                <strong className="text-purple-900">Apoio</strong>
+                <p>Suporte contínuo durante todo o processo terapêutico.</p>
               </div>
             </li>
           </ul>
