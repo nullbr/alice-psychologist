@@ -43,7 +43,7 @@ const WebNav = () => {
     >
       <div className="max-w-3xl flex flex-wrap items-center justify-between mx-auto">
         {/* logo */}
-        <a href="/" className="p-4">
+        <a href="#hero" className="p-4">
           <img src={Logo} alt="logo" className="w-48" />
         </a>
 
