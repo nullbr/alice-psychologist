@@ -17,13 +17,15 @@ const Appointments = () => {
           e respeito.
         </p>
 
-        <div className="bg-purple-300 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
-          <h3 className="text-2xl mb-6 text-center">Meu Diferencial</h3>
-          <ul className="list-none text-blue-900 space-y-6 leading-relaxed max-w-3xl mx-auto">
+        <div className="bg-gray-500 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
+          <h3 className="text-2xl mb-6 text-center text-white">
+            Meu Diferencial
+          </h3>
+          <ul className="list-none text-blue-500 space-y-6 leading-relaxed max-w-3xl mx-auto">
             <li className="flex items-start space-x-3">
               <img src={Empathy} alt="Empatia" className="h-10 w-10" />
               <div>
-                <strong className="text-purple-900">
+                <strong className="text-slate-200">
                   Empatia e Compreensão
                 </strong>
                 <p>Um ambiente acolhedor onde você se sentirá compreendido.</p>
@@ -36,7 +38,7 @@ const Appointments = () => {
                 className="h-10 w-10"
               />
               <div>
-                <strong className="text-purple-900">
+                <strong className="text-slate-200">
                   Abordagem Personalizada
                 </strong>
                 <p>
@@ -48,9 +50,7 @@ const Appointments = () => {
             <li className="flex items-start space-x-3">
               <img src={Updated} alt="Atualizado" className="h-10 w-10" />
               <div>
-                <strong className="text-purple-900">
-                  Atualização Contínua
-                </strong>
+                <strong className="text-slate-200">Atualização Contínua</strong>
                 <p>
                   Técnicas eficazes e sempre atualizadas, com foco em constante
                   aperfeiçoamento.
@@ -60,15 +60,15 @@ const Appointments = () => {
           </ul>
         </div>
 
-        <div className="bg-purple-300 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
-          <h3 className="text-2xl mb-6 text-center">
+        <div className="bg-gray-500 p-10 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03]">
+          <h3 className="text-2xl mb-6 text-center text-white">
             Por Que Escolher o Meu Atendimento?
           </h3>
-          <ul className="list-none text-blue-900 space-y-6 leading-relaxed max-w-3xl mx-auto">
+          <ul className="list-none text-blue-500 space-y-6 leading-relaxed max-w-3xl mx-auto">
             <li className="flex items-start space-x-3">
               <img src={Confidence} alt="Confiança" className="h-10 w-10" />
               <div>
-                <strong className="text-purple-900">
+                <strong className="text-slate-200">
                   Desenvolvimento de Confiança e Autocontrole
                 </strong>
                 <p>Essenciais para enfrentar desafios.</p>
@@ -77,9 +77,7 @@ const Appointments = () => {
             <li className="flex items-start space-x-3">
               <img src={Strategies} alt="Estratégias" className="h-10 w-10" />
               <div>
-                <strong className="text-purple-900">
-                  Estratégias Eficazes
-                </strong>
+                <strong className="text-slate-200">Estratégias Eficazes</strong>
                 <p>
                   Uso da Terapia Cognitivo-Comportamental (TCC) para resultados
                   comprovados.
@@ -89,12 +87,12 @@ const Appointments = () => {
             <li className="flex items-start space-x-3">
               <img src={Support} alt="Apoio" className="h-10 w-10" />
               <div>
-                <strong className="text-purple-900">Apoio</strong>
+                <strong className="text-slate-200">Apoio</strong>
                 <p>Suporte contínuo durante todo o processo terapêutico.</p>
               </div>
             </li>
           </ul>
-          <p className="text-blue-900 mt-6 text-lg max-w-3xl mx-auto">
+          <p className="text-slate-200 mt-6 text-lg max-w-3xl mx-auto">
             Não deixe que a dor e a ansiedade afetem sua vida. Está mais do que
             na hora de investir nessa mudança e buscar uma nova forma de lidar
             com os desafios.

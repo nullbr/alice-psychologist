@@ -10,7 +10,7 @@ const Specialties = () => {
           uma vida mais equilibrada e feliz.
         </p>
 
-        <div className="bg-brown-500 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03] relative text-white p-6 pt-10 text-lg">
+        <div className="bg-blue-500 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03] relative text-white p-6 pt-10 text-lg">
           <h2 className="text-center text-2xl font-semibold mb-4">
             Ansiedade e Terapia Cognitivo-Comportamental (TCC)
           </h2>
@@ -27,9 +27,7 @@ const Specialties = () => {
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="py-4 border-b md:border-b-0 md:border-r md:pr-6 border-blue-700">
-              <h3 className="text-lg font-bold mb-3 text-white">
-                Sintomas Comuns
-              </h3>
+              <h3 className="text-lg font-bold mb-3 text-white">Sintomas</h3>
               <ul className="list-disc list-inside space-y-1 text-slate-200">
                 <li>Contratura muscular</li>
                 <li>Dor de cabeça</li>
@@ -44,16 +42,32 @@ const Specialties = () => {
 
             <div className="py-4">
               <h3 className="text-lg font-bold mb-3 text-white">
+                A Efetividade da Terapia
+              </h3>
+              <div className="my-4">
+                <p className="text-slate-200">
+                  A Terapia Cognitivo Comportamental é a abordagem teórica com
+                  mais evidências científicas de efetividade no tratamento de
+                  Transtornos de Ansiedade.
+                </p>
+                <p className="text-slate-200">
+                  Este método é bem estruturado e diretivo, com metas definidas
+                  em conjunto com o paciente a partir de uma aliança terapêutica
+                  sólida.
+                </p>
+              </div>
+
+              <h3 className="text-lg font-bold mb-3 text-white">
                 Benefícios da TCC
               </h3>
-              <p className="mb-4 text-slate-200">A TCC ajuda a:</p>
               <ul className="list-disc list-inside space-y-1 text-slate-200">
                 <li>
                   <strong>Identificar:</strong> Sintomas e distorções de
-                  pensamento.
+                  pensamento ou comportamento.
                 </li>
                 <li>
-                  <strong>Reduzir:</strong> Impacto emocional da ansiedade.
+                  <strong>Reduzir:</strong> Impacto emocional causado pelos
+                  sintomas de ansiedade.
                 </li>
               </ul>
               <p className="mt-4 text-slate-200">
@@ -63,7 +77,7 @@ const Specialties = () => {
           </div>
         </div>
 
-        <div className="bg-brown-500 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03] relative text-white p-6 pt-10 text-lg">
+        <div className="bg-blue-500 mb-8 shadow-2xl rounded-7xl transform transition-transform duration-300 hover:scale-[1.03] relative text-white p-6 pt-10 text-lg">
           <h2 className="text-center text-2xl font-semibold mb-4">
             Equilíbrio Emocional para Vestibulandos e Estudantes de Medicina
           </h2>
@@ -74,14 +88,17 @@ const Specialties = () => {
             </h3>
             <p className="max-w-xl text-slate-100">
               O equilíbrio emocional é tão importante quanto o preparo acadêmico
-              na jornada para o vestibular de Medicina.
+              na jornada para o vestibular de Medicina. Utilizando técnicas da
+              Terapia Cognitivo-Comportamental (TCC), ajudo estudantes a
+              reestruturar pensamentos distorcidos e desenvolver confiança,
+              autocontrole e foco.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="py-4 border-b md:border-b-0 md:border-r md:pr-6 border-blue-700">
               <h3 className="text-lg font-bold mb-3 text-white">
-                Técnicas da TCC para Estudantes
+                Temas recorrentes abordados
               </h3>
               <ul className="list-disc list-inside space-y-1 text-slate-200">
                 <li>Culpa</li>
@@ -108,8 +125,12 @@ const Specialties = () => {
                 Transforme sua Preparação
               </h3>
               <p>
-                Não deixe a ansiedade afetar seus sonhos. Aprenda a gerenciar o
-                estresse e aumente suas chances de sucesso.
+                Não deixe a ansiedade afetar seus sonhos. Aprenda a gerenciar as
+                emoções e aumente suas chances de sucesso.
+              </p>
+              <p>
+                Ao alcançar o equilíbrio emocional é possível potencializar suas
+                habilidades.
               </p>
             </div>
           </div>

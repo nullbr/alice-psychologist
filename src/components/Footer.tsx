@@ -9,9 +9,12 @@ const Footer = () => {
           <div className="flex items-center mb-4 md:mb-0">
             <img src={Logo} alt="Logo" className="w-24 h-auto mr-4" />
             <div>
-              <h2 className="text-xl font-bold mb-2 text-blue-700">
-                Alice Araujo
-              </h2>
+              <div className="flex items-center gap-3  mb-2">
+                <h2 className="text-xl font-bold text-blue-700 mb-0">
+                  Alice Araujo
+                </h2>
+                <p className="text-center text-gray-400 mt-2">CRP: 05/36914</p>
+              </div>
               <p className="text-gray-400">
                 Atendimento psicológico para adolescentes e adultos. Consultório
                 em Ipanema/RJ e sessões online disponíveis para todo o Brasil e
@@ -60,7 +63,6 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Alice Araujo Psicologia. Todos os
             direitos reservados.
           </p>
-          <p className="text-center text-gray-400 mt-2">CRP: 05/36914</p>
         </div>
       </div>
     </footer>

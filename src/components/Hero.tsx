@@ -11,8 +11,7 @@ const Hero = () => {
     >
       <article className="flex flex-col lg:flex-row gap-6 lg:gap-10 text-center md:text-xl -mb-[45vw] md:-mb-80 max-w-7xl mx-auto px-6 pb-10 pt-16 sm:pt-28 h-[100svh] sm:h-auto">
         <div className="flex flex-col gap-2 sm:gap-4 lg:gap-0 h-full justify-around sm:justify-normal lg:justify-around max-w-[500px] mx-auto">
-          <div className="lg:h-[50%] flex flex-col items-center justify-center lg:pt-10">
-            <h1>Alice Araujo</h1>
+          <div className="lg:h-[50%] flex flex-col items-center justify-center pt-10 lg:pt-28">
             <p className="sm:text-xl md:text-2xl ">
               Psicóloga Especializada em Ansiedade e Terapia
               Cognitivo-Comportamental
@@ -37,7 +36,7 @@ const Hero = () => {
             </div>
             <a
               href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita"
-              className="text-blue-700 hover:text-green-600/90 border-2 border-blue-700 hover:border-green-600/90 font-medium rounded-xl text-sm px-5 py-2.5 text-center inline-flex items-center me-2"
+              className="text-blue-500 hover:text-green-600/90 border-2 border-blue-500 hover:border-green-600/90 font-medium rounded-xl text-sm px-5 py-2.5 text-center inline-flex items-center me-2"
             >
               <FaWhatsapp className="text-xl me-2" />
               Contato via WhatsApp
@@ -47,10 +46,10 @@ const Hero = () => {
         <img
           src={HeroImg}
           alt="Alice Araujo"
-          className="rounded-full border border-blue-700 shadow-xl w-[70vw] h-[70vw] md:w-[500px] md:h-[500px] justify-center items-center text-xl md:text-2xl mx-auto"
+          className="rounded-full border border-blue-500 shadow-xl w-[70vw] h-[70vw] md:w-[500px] md:h-[500px] justify-center items-center text-xl md:text-2xl mx-auto"
         />
       </article>
-      <div className="bg-brown-500 text-center text-white md:text-xl pt-[40vw] md:pt-[330px] rounded-l-7xl" />
+      <div className="bg-gray-500 text-center text-white md:text-xl pt-[40vw] md:pt-[330px] rounded-l-7xl" />
     </section>
   );
 };
