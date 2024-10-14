@@ -5,24 +5,21 @@ import OnlineMeeting from "../assets/online-meeting.svg";
 
 const Hero = () => {
   return (
-    <section
-      id="hero"
-      className="bg-outline-pattern rounded-bl-7xl text-gray-600"
-    >
-      <article className="flex flex-col lg:flex-row gap-6 lg:gap-10 text-center md:text-xl -mb-[45vw] md:-mb-80 max-w-7xl mx-auto px-6 pb-10 pt-16 sm:pt-28 h-[100svh] sm:h-auto">
-        <div className="flex flex-col gap-2 sm:gap-4 lg:gap-0 h-full justify-around sm:justify-normal lg:justify-around max-w-[500px] mx-auto">
-          <div className="lg:h-[50%] flex flex-col items-center justify-center pt-10 lg:pt-28">
-            <p className="sm:text-xl md:text-2xl ">
+    <section id="hero" className="bg-outline-pattern text-gray-600">
+      <article className="flex flex-col lg:flex-row gap-6 lg:gap-10 text-center md:text-xl -mb-[50svh] max-w-7xl mx-auto h-[100svh] pt-20">
+        <div className="flex flex-col gap-2 sm:gap-4 lg:gap-0 h-full justify-around sm:justify-normal lg:justify-around max-w-[500px] max-h-[500px] m-auto pb-10">
+          <div className="md:h-[50svh] flex flex-col items-center justify-end pb-10">
+            <p className="sm:text-xl md:text-2xl">
               Psicóloga Especializada em Ansiedade e Terapia
               Cognitivo-Comportamental
             </p>
           </div>
-          <div className="lg:h-[50%] flex flex-col items-center justify-center lg:pt-20">
+          <div className="md:h-[50svh] flex flex-col items-center justify-start pt-10">
             <p className="lg:text-white mb-2 sm:mb-6 sm:text-xl md:text-2xl">
               Ofereço consultas online e presenciais em Ipanema/RJ. Entre em
               contato para agendar uma sessão.
             </p>
-            <div className="flex items-center justify-center gap-10 mb-2 sm:mb-6">
+            <div className="flex items-center justify-center gap-10 mb-2">
               <img
                 src={InPerson}
                 alt="Atendimento Presencial"
@@ -46,10 +43,10 @@ const Hero = () => {
         <img
           src={HeroImg}
           alt="Alice Araujo"
-          className="rounded-full border border-blue-500 shadow-xl w-[70vw] h-[70vw] md:w-[500px] md:h-[500px] justify-center items-center text-xl md:text-2xl mx-auto"
+          className="rounded-full border border-blue-500 shadow-xl w-[70vw] h-[70vw] md:w-[40svw] md:h-[40svw] md:max-w-[600px] md:max-h-[600px] justify-center items-center text-xl md:text-2xl m-auto mx-auto"
         />
       </article>
-      <div className="bg-gray-500 text-center text-white md:text-xl pt-[40vw] md:pt-[330px] rounded-l-7xl" />
+      <div className="bg-gray-500 text-center text-white md:text-xl pt-[40vw] md:pt-[50svh] rounded-t-7xl" />
     </section>
   );
 };
