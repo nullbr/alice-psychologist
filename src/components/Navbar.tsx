@@ -143,7 +143,7 @@ const Links = ({
               }}
               className={`block py-2 pl-3 pr-4 rounded capitalize md:p-0 md:hover:text-blue-600 ${
                 anchor === page.path
-                  ? "text-white bg-blue-500 md:text-blue-500 md:bg-transparent md:underline"
+                  ? "text-white bg-blue-700 md:text-blue-700 md:bg-transparent md:underline"
                   : "text-gray-500"
               }`}
             >
@@ -179,7 +179,7 @@ const FloatingButton = () => {
       }`}
     >
       <button
-        className="h-[40px] w-[40px] p-2 border-2 border-blue-500 hover:border-white rounded-full hover:bg-blue-500 transition-colors text-blue-500 hover:text-white hover:shadow-lg"
+        className="h-[40px] w-[40px] p-2 border-2 border-blue-700 hover:border-white rounded-full hover:bg-blue-700 transition-colors text-blue-700 hover:text-white hover:shadow-lg"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
@@ -187,7 +187,7 @@ const FloatingButton = () => {
         <BiChevronUp size={40} className="-mt-2.5 -ml-2.5" />
       </button>
       <a
-        href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita"
+        href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+atendimento"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 rounded-full ease-in-out duration-500 hover:bg-white hover:shadow-lg hover:pl-4 transition text-gray-500 group"

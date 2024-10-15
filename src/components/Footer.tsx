@@ -1,5 +1,4 @@
 import { BsInstagram, BsLinkedin, BsWhatsapp } from "react-icons/bs";
-import Logo from "../assets/fullLogo.png";
 
 const Footer = () => {
   return (
@@ -7,7 +6,6 @@ const Footer = () => {
       <div className="max-w-3xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between mb-6">
           <div className="flex items-center mb-4 md:mb-0">
-            <img src={Logo} alt="Logo" className="w-24 h-auto mr-4" />
             <div>
               <div className="flex items-center gap-3  mb-2">
                 <h2 className="text-xl font-bold text-blue-700 mb-0">
@@ -24,7 +22,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-2">
             <a
-              href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita"
+              href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+atendimento"
               className="text-blue-400 hover:underline flex flex-row gap-2 items-center"
               target="_blank"
               rel="noopener noreferrer"

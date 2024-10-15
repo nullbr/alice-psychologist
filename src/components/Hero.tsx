@@ -32,7 +32,7 @@ const Hero = () => {
               />
             </div>
             <a
-              href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+visita"
+              href="https://wa.me/+5521992062217?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+atendimento"
               className="text-blue-500 hover:text-green-600/90 border-2 border-blue-500 hover:border-green-600/90 font-medium rounded-xl text-sm px-5 py-2.5 text-center inline-flex items-center me-2"
             >
               <FaWhatsapp className="text-xl me-2" />
